@@ -1,4 +1,9 @@
-# R code and data for "Small understory trees increase growth following sustained drought in the Amazon"
+# R code for "Small understory trees increase growth following sustained drought in the Amazon"
+
+-   **Input Data:** Available on Zenodo [here](LINK).
+-   **Analysis and Figures:** Open the `Rscript` file to reproduce all analyses and figures.  
+-   **Metadata:** Details for the input data are provided below.
+
 
 ## Input data metadata
 
