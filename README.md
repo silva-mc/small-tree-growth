@@ -1,9 +1,3 @@
----
-title: "Metadata"
-output: html_document
-date: "2025-11-10"
----
-
 # R code and data for "Small understory trees increase growth following sustained drought in the Amazon"
 
 ## Input data metadata
