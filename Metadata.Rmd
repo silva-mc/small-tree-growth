@@ -1,0 +1,113 @@
+---
+title: "Metadata"
+output: html_document
+date: "2025-11-10"
+---
+
+# R code and data for "Small understory trees increase growth following sustained drought in the Amazon"
+
+## Input data metadata
+
+### `Cax_Silva_M_data_v2`
+
+**Description:** Stem diameter (DBH) timeseries data (individual level)
+
+-   `plot`: Plot (Control, TFE Throughfall Exclusion)
+-   `subplot`: 100 m² subplot
+-   `id`: Tree unique identifier
+-   `dbh`: Stem diameter at 1.30 m (DBH; cm)
+-   `dbh_init`: Initial (2017) diameter at breast height (cm)
+-   `date`: Date (YYYY/MM/DD)
+-   `obs`: Observations
+
+------------------------------------------------------------------------
+
+### `Cax_Silva_M_data_rgr_v2`
+
+**Description:** Stem increment data (individual level)
+
+-   `plot`: Plot (Control, TFE Throughfall Exclusion)
+-   `subplot`: 100 m² subplot
+-   `family`: Family
+-   `genus`: Genus
+-   `search.str`: Species
+-   `rgr`: Stem increment rate (cm/year)
+-   `dbh_init`: Initial (2017) diameter at breast height (cm)
+
+------------------------------------------------------------------------
+
+### `Cax_Silva_M_data_rgr_avg_v2`
+
+**Description:** Stem increment data (species level)
+
+-   `plot`: Plot (Control, TFE Throughfall Exclusion)
+-   `family`: Family
+-   `genus`: Genus
+-   `search.str`: Species
+-   `rgr`: Stem increment rate (cm/year)
+
+------------------------------------------------------------------------
+
+### `Cax_Silva_M_data_subp_v2`
+
+**Description:** Stem increment data (subplot level)
+
+-   `plot`: Plot (Control, TFE Throughfall Exclusion)
+-   `subplot`: 100 m² subplot
+-   `tree_numbe`: Number of large trees (DBH \> 10 cm; individual/subplot)
+-   `tree_densi`: Density of large trees (DBH \> 10 cm; individual/m²)
+-   `tree_ba_m2_m2`: Basal area of large trees (DBH \> 10 cm; m²/m²)
+-   `sapli_numbe`: Number of small trees (DBH 1–10 cm; individual/subplot)
+-   `sapli_densi`: Density of small trees (DBH 1–10 cm; individual/m²)
+-   `sapli_ba_m2_m2`: Basal area of small trees (DBH 1–10 cm; m²/m²)
+-   `rgr_mean`: Stem increment rate (cm/year)
+
+------------------------------------------------------------------------
+
+### `Cax_Silva_M_data_subp_long_v2`
+
+**Description:** Species richness and individual density (subplot level)
+
+-   `plot`: Plot (Control, TFE Throughfall Exclusion)
+-   `subplot`: 100 m² subplot
+-   `year`: Year
+-   `rich`: Small tree species richness (species/subplot)
+-   `stem_numb`: Small tree individual density (tree/subplot)
+
+------------------------------------------------------------------------
+
+### `Cax_Silva_M_data_trai_pca_v2`
+
+**Description:** Trait data and PCA input
+
+-   `plot`: Plot (Control, TFE Throughfall Exclusion)
+-   `family`: Family
+-   `genus`: Genus
+-   `search.str`: Species
+-   `rgr`: Stem increment rate (cm/year)
+-   `dbh`: Diameter at breast height (cm)
+-   `vcmax`: Maximum rate of Rubisco carboxylation (µmol/m²/s)
+-   `jmax`: Maximum electron transport rate (µmol/m²/s)
+-   `rleaf`: Leaf dark respiration rate (µmol/m²/s)
+-   `gsmin`: Leaf minimum conductance (mmol/m²/s)
+-   `nmass`: Leaf nitrogen content (g/kg)
+-   `pmass`: Leaf phosphorus content (g/kg)
+-   `lma`: Leaf mass per area (g/m²)
+-   `lth`: Leaf thickness (mm)
+-   `wd`: Wood density (g/cm³)
+-   `pdwp`: Predawn leaf water potential (MPa)
+-   `mdwp`: Midday leaf water potential (MPa)
+-   `p50`: Water potential at which 50% of conductivity loss (MPa)
+-   `p88`: Water potential at which 88% of conductivity loss (MPa)
+-   `ksmax`: Maximum xylem-specific hydraulic conductivity (mol/m²/s/MPa)
+-   `plc`: Percentage loss of xylem conductivity (%)
+-   `lasa`: Leaf-to-sapwood area ratio (–)
+-   `PC1`–`PC16`: Principal components 1 to 16
+
+------------------------------------------------------------------------
+
+### PCA outputs
+
+-   `Cax_Silva_M_pca_loadings_v2`: PC loadings\
+-   `Cax_Silva_M_pca_scores_v2`: PC scores\
+-   `Cax_Silva_M_pca_v2`: PCA RDS object
