@@ -102,6 +102,6 @@
 
 ### PCA outputs
 
--   `Cax_Silva_M_pca_loadings_v2`: PC loadings\
--   `Cax_Silva_M_pca_scores_v2`: PC scores\
+-   `Cax_Silva_M_pca_loadings_v2`: PC loadings
+-   `Cax_Silva_M_pca_scores_v2`: PC scores
 -   `Cax_Silva_M_pca_v2`: PCA RDS object
